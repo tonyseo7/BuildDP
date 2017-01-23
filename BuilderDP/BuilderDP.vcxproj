@@ -145,11 +145,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="PictureBuilder.h" />
+    <ClInclude Include="RePreventBuilder.h" />
+    <ClInclude Include="SmoothBuilder.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BuilderDP.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="REPreventBuilder.cpp" />
+    <ClCompile Include="SmoothBuilder.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
